@@ -10,7 +10,7 @@ Estimates a stock's drift and volatility from 5 years of historical market data,
 5. Reports risk metrics: 95% Value-at-Risk, expected shortfall (CVaR), probability of loss, and a 90% price interval
 
 ## Tools
-Python · NumPy · Pandas · Matplotlib · yfinance · Jupyter Labs/Google Colab
+Python · NumPy · Pandas · Matplotlib · yfinance · Jupyter Notebooks/Google Colab
 
 ## Key takeaway
-GBM is the classic baseline (it underlies Black-Scholes), but the notebook also shows where it fails: observed returns have significant excess kurtosis, so the model understates tail risk. Limitations and extensions (bootstrap resampling, Student-t innovations, GARCH volatility) are discussed in the final section.
+GBM is the classic baseline (it underlies Black-Scholes), but the notebook also shows where it fails: observed returns have significant excess kurtosis, so the model understates tail risk. Limitations discussed in the final section.
